@@ -3,6 +3,7 @@
 import sys
 from collections import Counter
 
+
 def sell_shoes(size_price, shoes_size):
     if size_price[0] in shoes_size:
         shoes_size[size_price[0]] -= 1
